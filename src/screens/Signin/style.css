@@ -1,0 +1,39 @@
+.auth-container {
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: #fcfffc;
+}
+
+.auth-form {
+  width: 400px;
+}
+
+.brand-title {
+  font-weight: 510;
+  font-size: 17px;
+}
+
+.form-label {
+  font-size: 14px !important;
+}
+
+.auth-caption {
+  font-size: 14px;
+}
+
+.form-control {
+  height: 45px !important;
+}
+
+.form-password {
+  border: none !important;
+}
+
+.form-password:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.eye-cover {
+  cursor: pointer;
+}
