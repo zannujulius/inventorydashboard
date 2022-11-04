@@ -11,8 +11,8 @@ body {
 
 .form-control:focus,
 .form-check-input:focus {
-  border-color: #24dc5ed2 !important;
-  box-shadow: 0 0 0 0.25rem #24dc5e17 !important;
+  border-color: #8b21fd !important;
+  box-shadow: 0 0 0 0.25rem #8b21fd18 !important;
 }
 
 .form-control::placeholder,
@@ -21,6 +21,6 @@ body {
   color: #4d4d4d;
 }
 .form-check-input:checked {
-  background-color: #1c8930 !important;
-  border-color: #1c8930 !important;
+  background-color: #8b21fd !important;
+  border-color: #8b21fd !important;
 }
