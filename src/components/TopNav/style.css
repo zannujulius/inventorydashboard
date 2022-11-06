@@ -1,0 +1,50 @@
+.nav {
+  height: 65px;
+  z-index: 10;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #323232;
+  box-shadow: 0 3px 5px #eeeeeede;
+}
+
+.upgrade-cover {
+  background-color: #ff634724;
+  cursor: pointer;
+}
+
+.add-user__btn {
+  font-size: 14px;
+  color: #3c3030;
+}
+
+.notify-icon {
+  font-size: 24px;
+}
+
+.nav-right {
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* background: url("https://images.unsplash.com/photo-1664737063281-1e6c08230650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.profile-icon {
+  position: relative;
+}
+
+.auth-option__modal {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 100px;
+}

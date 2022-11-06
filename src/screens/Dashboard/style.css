@@ -1,0 +1,62 @@
+.most-sold_title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.most-sold_number {
+  color: #9d9d9d;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.most-sold_value {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.section-title {
+  font-size: 15px;
+}
+
+.dshb-card:nth-child(1) {
+  background: url("../../assets/svg/bgpurple.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dshb-card:nth-child(2) {
+  background: url("../../assets/svg/bgblue.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-role {
+  font-size: 13px;
+}
+
+.profile-icon {
+  background: url("https://images.unsplash.com/photo-1589156288859-f0cb0d82b065?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #c6ffc6;
+}
+
+.logout-cover {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.logout-text {
+  font-size: 13px;
+  color: #9d9d9d;
+}

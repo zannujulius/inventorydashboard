@@ -10,6 +10,7 @@ interface Props {
   loading?: boolean;
   loaderColor?: string | undefined;
   text: String;
+  height?: number;
 }
 
 const override = css`
@@ -25,13 +26,17 @@ const Button: React.FC<Props> = ({
   loading,
   loaderColor,
   text,
+  height,
 }) => {
   return (
     <button
       disabled={loading}
-      className="p-2 rounded-2 w-100 d-flex align-items-center justify-content-center custom-btn"
+      className="p-2 shadow-sm rounded-2 w-100 d-flex align-items-center justify-content-center custom-btn"
       style={{
         color: "#fff",
+        height: height || 45,
+        backgroundColor: "#8b21fd",
+        backgroundImage: "linear-gradient(19deg, #8b21fd 0%, #a421ff 100%)",
       }}
     >
       {loading ? (

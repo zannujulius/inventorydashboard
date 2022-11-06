@@ -1,8 +1,6 @@
 .custom-btn {
   border: none !important;
   height: 45px;
-  background-color: #8b21fd;
-  background-image: linear-gradient(19deg, #8b21fd 0%, #a421ff 100%);
 }
 
 .custom-btn:focus {

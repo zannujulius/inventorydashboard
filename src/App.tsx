@@ -3,11 +3,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import Signin from "./screens/Signin";
 import { Route, Routes } from "react-router-dom";
+import Dashboard from "./screens/Dashboard";
 
 function App() {
   return (
     <Routes>
       <Route index={true} path="signin" element={<Signin />} />
+      <Route path="dashboard" element={<Dashboard />} />
     </Routes>
   );
 }
