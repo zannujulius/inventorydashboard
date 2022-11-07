@@ -36,11 +36,15 @@ const SideNav: React.FC = () => {
     <div className="side-nav">
       <div className="side-nav__brand mb-4 w-100 d-flex align-items-center justify-content-center">
         <div
+          className="shadow-sm"
           style={{
             width: 40,
             height: 40,
             borderRadius: "50%",
-            border: `1px solid ${color.primary}`,
+            background: `url("https://www.yiiframework.com/image/design/logo/yii3_sign.png")`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
           }}
         ></div>
       </div>

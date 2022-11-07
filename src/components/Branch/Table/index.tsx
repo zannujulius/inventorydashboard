@@ -36,7 +36,10 @@ const columns: TableColumn<DataRow>[] = [
               width: 25,
               height: 25,
               borderRadius: "50%",
-              border: `1px solid ${color.primary}`,
+              background: `url("https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465__340.png")`,
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
             }}
           >
             {/* <img src="" alt="image branch" /> */}

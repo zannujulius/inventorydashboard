@@ -167,12 +167,44 @@ const Dashboard: React.FC = () => {
                   </div>
                 </div>
                 <div
-                  className="rounded-4 dshb-card mt-3"
+                  className="rounded-4 dshb-card mt-3 p-2 d-flex align-items-center justify-content-between"
                   style={{
                     // background: "#24a4ff",
                     height: 100,
                   }}
-                ></div>
+                >
+                  <div className="w-75">
+                    <div
+                      className="text-white"
+                      style={{
+                        fontSize: 15,
+                        fontWeight: "500",
+                      }}
+                    >
+                      Open Store Front
+                    </div>
+                    <div
+                      className="text-white "
+                      style={{
+                        fontSize: 13,
+                        fontWeight: "400",
+                      }}
+                    >
+                      Open a store front to start selling.
+                    </div>
+                  </div>
+                  <div
+                    className="w-25 d-flex align-items-center justify-content-between rounded-1"
+                    style={{
+                      border: `1px solid ${color.white}`,
+                    }}
+                  >
+                    <div className="px-1 d-none d-flex align-items-center mx-1 justify-content-center">
+                      <FaPlus size={13} color={color.white} />
+                    </div>
+                    <div className="text-white text-end px-2">Open </div>
+                  </div>
+                </div>
                 <div className="mt-4">
                   <div className="section-title">Most sold items</div>
                   {Array.from(Array(5)).map((i, index) => (
