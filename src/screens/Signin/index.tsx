@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { VscEyeClosed, VscEye } from "react-icons/vsc";
 import Button from "../../components/Button";
+import { Link } from "react-router-dom";
 
 const Signin: React.FC = () => {
   const [eye, seteye] = useState<boolean>(false);
@@ -60,9 +61,9 @@ const Signin: React.FC = () => {
                     Remember me
                   </label>
                 </div>
-                <div className="w-100 mt-4">
+                <Link to="/dashboard" className="w-100 mt-4">
                   <Button loading={false} text={"Sign in"} />
-                </div>
+                </Link>
               </div>
             </div>
           </div>

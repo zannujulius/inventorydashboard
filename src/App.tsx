@@ -8,7 +8,7 @@ import Dashboard from "./screens/Dashboard";
 function App() {
   return (
     <Routes>
-      <Route index={true} path="signin" element={<Signin />} />
+      <Route index path="/" element={<Signin />} />
       <Route path="dashboard" element={<Dashboard />} />
     </Routes>
   );
